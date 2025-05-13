@@ -1,0 +1,113 @@
+.tour_page {
+    background-image: url("https://wallpaperaccess.com/full/9015242.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tour-booking-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 900px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.booking-form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.booking-form select,
+.booking-form input {
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #f8f9fd;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.booking-form select:hover,
+.booking-form input:hover {
+    border-color: #007bff;
+}
+
+.search-button {
+    background: #007bff;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.search-button:hover {
+    background: #4facfe;
+}
+
+.tour-results {
+    width: 900px;
+    margin: 20px auto 0;
+}
+
+.tour-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    background: white;
+}
+
+.tour-option strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.tour-option p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.book-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.book-btn:hover {
+    background: #4facfe;
+}
